@@ -1,0 +1,13 @@
+// created by tanck, track feature supported by the system
+package eagleeye
+
+type CkFeature struct {
+  Author string
+  Name string
+  Date string
+  Desc string
+}
+
+var CkFeatureList = []CkFeature { /*#FEATURE_MAGIC#*/}
+
+
